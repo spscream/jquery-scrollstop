@@ -1,0 +1,47 @@
+{
+  "name": "jquery-scrollstop",
+  "version": "1.2.0",
+  "homepage": "https://github.com/ssorallen/jquery-scrollstop",
+  "description": "A jQuery plugin that adds custom scroll start and scroll stop events.",
+  "main": "jquery.scrollstop.min.js",
+  "moduleType": [
+    "amd",
+    "node",
+    "globals"
+  ],
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "scrollstop",
+    "scrollstart",
+    "scroll"
+  ],
+  "authors": [
+    {
+      "name": "James Padolsey",
+      "url": "http://james.padolsey.com/javascript/special-scroll-events-for-jquery/"
+    },
+    {
+      "name": "Ross Allen",
+      "url": "https://github.com/ssorallen"
+    }
+  ],
+  "license": "Unlicense",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssorallen/jquery-scrollstop.git"
+  },
+  "dependencies": {
+    "jquery": ">=1.2.3"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.16"
+  }
+}
